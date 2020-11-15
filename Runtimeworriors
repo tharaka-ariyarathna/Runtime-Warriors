@@ -1,0 +1,88 @@
+package hihi;
+
+import java.util.Scanner  ;
+import java.util.ArrayList;
+
+
+public class gaeaw {
+
+	public static void main(String[] args) {
+		Scanner s = new Scanner(System.in) ;
+		int option = 0;
+		
+	while(option != 7)
+	  {
+		System.out.println("Enter 1 to display all contacts\r\n");
+		System.out.println("Enter 2 to add contact\r\n");
+		System.out.println("Enter 3 to remove contact\r\n");
+		System.out.println("Enter 4 to edit a contact\r\n");
+		System.out.println("Enter 5 to load contacts from a text file\r\n");
+		System.out.println("Enter 6 to save contacts to the text file\r\n");
+		System.out.println("Enter 7 to exit from the program\r\n");
+		option = s.nextInt() ;
+		
+		if(option == 1)
+		{
+			
+		}
+		if(option == 2)
+		{
+			System.out.println("Please enter name") ;
+			String name = s.next();
+			
+			System.out.println("Please add phone number");
+			String phoneNumber = s.next();
+		}
+		if(option == 3)
+		{
+			System.out.println("Please enter name of the contact that you want to delete\r\n") ;
+			String name3 = s.next() ;
+		}
+		if(option == 4)
+		{
+			System.out.println("Please enter name of the contact that you want to change\r\n");
+			String name1 = s.next();
+			
+			System.out.println("Please enter the new phone number") ;
+			String phoneNumber1 = w.next() ;
+		}
+		if(option == 5)
+		{
+			
+		}
+		if(option == 6)
+		{
+			
+		}
+		
+		
+	  }
+	  
+	}
+
+}
+
+
+class contact{
+	String name ;
+	String phoneNo ;
+}
+
+class contactList{
+	ArrayList<String> content = new ArrayList<String>(); 
+	void addContact() {
+		
+	}
+	void deletContact() {
+		
+	}
+	void displayContacts() {
+		
+	}
+	void  loadContacts() {
+		
+	}
+	void saveContact() {
+		
+	}
+}
